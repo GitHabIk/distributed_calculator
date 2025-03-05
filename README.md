@@ -13,7 +13,7 @@
 > 
 > #**1** - Запустите **Docker** и в терминале зайдите в папку проекта и пропишите **```docker-compose up --build```**
 >
-> #**2** - Перейдите в **PowerShell** и пропишите команды чтобы сделать запрос на решение примера, а именно **```Invoke-RestMethod -Uri "http://localhost:8080/api/v1/calculate" -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"expression": "2 + 2 * 2"}'```**
+> #**2** - Перейдите в **PowerShell** и пропишите команды чтобы сделать запрос на решение примера, а именно **```Invoke-RestMethod -Uri "http://localhost:8080/api/v1/calculate" -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"expression": "2 + 2 * 2"}'```** где {"expression": "..."} это ваш пример
 >
 > #**3** - Мы получим ответ с айди **```
 id
